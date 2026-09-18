@@ -1,0 +1,102 @@
+{
+  "prices_daily": {
+    "rows": 217214,
+    "tickers": 95,
+    "start": "2016-01-04",
+    "end": "2026-09-18",
+    "cols": [
+      "ticker",
+      "date",
+      "close",
+      "volume",
+      "tri",
+      "mktcap"
+    ]
+  },
+  "fundamentals_semiannual": {
+    "rows": 1943,
+    "tickers": 95,
+    "announce_matched": 1868,
+    "announce_estimated": 75,
+    "cols": [
+      "ticker",
+      "period_end",
+      "revenue",
+      "net_income",
+      "eps",
+      "bvps",
+      "cfo",
+      "total_debt",
+      "roe",
+      "shares_out",
+      "announce_date",
+      "announce_date_est"
+    ]
+  },
+  "macro_series": {
+    "rows": 103915,
+    "series": [
+      "AUDUSD Curncy",
+      "BDIY Index",
+      "CL1 Comdty",
+      "CNCPIYOY Index",
+      "CNGDPYOY Index",
+      "CO1 Comdty",
+      "CPI YOY Index",
+      "CPMINDX Index",
+      "DXY Curncy",
+      "EURUSD Curncy",
+      "FDTR Index",
+      "GBPUSD Curncy",
+      "GC1 Comdty",
+      "GCNY10YR Index",
+      "HG1 Comdty",
+      "HIHD01M Index",
+      "HIHD03M Index",
+      "HKCPIY Index",
+      "HKGDYOY Index",
+      "HKUERATE Index",
+      "HSAHP Index",
+      "HSCEI Index",
+      "HSCI Index",
+      "HSI Index",
+      "HSTECH Index",
+      "LF98TRUU Index",
+      "LUACTRUU Index",
+      "MXEF Index",
+      "MXWO Index",
+      "NAPMPMI Index",
+      "NDX Index",
+      "NG1 Comdty",
+      "NKY Index",
+      "SHCOMP Index",
+      "SHSZ300 Index",
+      "SI1 Comdty",
+      "SPX Index",
+      "USDCNH Curncy",
+      "USDCNY Curncy",
+      "USDHKD Curncy",
+      "USDJPY Curncy",
+      "USGG10YR Index",
+      "USGG2YR Index",
+      "USGG30YR Index",
+      "USURTOT Index",
+      "VHSI Index",
+      "VIX Index"
+    ]
+  },
+  "static_snapshot": {
+    "rows": 95,
+    "cols": [
+      "ticker",
+      "NAME",
+      "GICS_SECTOR_NAME",
+      "CUR_MKT_CAP",
+      "EQY_SH_OUT",
+      "PE_RATIO",
+      "PX_TO_BOOK_RATIO",
+      "EQY_DVD_YLD_IND",
+      "ID_ISIN"
+    ]
+  }
+}
